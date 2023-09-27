@@ -1,33 +1,36 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     height: 100%;
     font-family: 'Lato', sans-serif;
+
     @font-face {
         font-family: "Lato";
         src: url('698242188-Lato-Bla.eot');
         src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
-        url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
-        url('698242188-Lato-Bla.woff') format('woff'),
-        url('698242188-Lato-Bla.ttf') format('truetype');
+            url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+            url('698242188-Lato-Bla.woff') format('woff'),
+            url('698242188-Lato-Bla.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
-}
+    }
 }
 
 /* Logo */
 
-.work{
-    color:#3E97C9 ;
+.work {
+    color: #3E97C9;
     font-weight: bolder;
-    
+
 }
-.t{
-    color:#EA9009 ;
+
+.t {
+    color: #EA9009;
     font-weight: bolder;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
 
@@ -37,7 +40,7 @@ header{
 h2 {
     text-align: center;
     margin: auto;
-    padding: 50px;
+    padding: 500px;
 
 }
 
@@ -46,7 +49,7 @@ h2 {
 main {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 main {
@@ -60,7 +63,7 @@ main section {
 
 
 /* Recherche */
-nav{
+nav {
     display: flex;
     justify-content: center;
     padding: 1rem;
@@ -68,7 +71,9 @@ nav{
 
 /* Config input text */
 
-input#skills-search, input#location-search, input#exp-search {
+input#skills-search,
+input#location-search,
+input#exp-search {
     border-radius: 25px;
     border-width: 0;
     background-color: rgb(232, 232, 232);
