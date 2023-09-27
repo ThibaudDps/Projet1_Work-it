@@ -4,14 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>workit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
-<script src="index.js"></script>
-<body>
+<header>
 
-    <p>### HELLO</p>
-    <h1>coucou</h1>
-    <h2>Ouais c Greg</h2>
+    <h1 id="logo">
+        <span class="work">work</span>
+        <span class="t">.it</span>
+    </h1>
+</header>
+
+<body>
+    <main>
+        <section id="intro">
+            <h2>Qui recherchez-vous aujourd'hui ?</h2>
+        </section>
+
+        <section id="searchBar">
+
+            <nav id="Skills">
+                <label for="skills-search"></label>
+                <input type="search" id="skills-search" name="searchSkills" placeholder="Compétences, Métiers" />
+
+            </nav>
+
+            <nav id="Location">
+                <label for="location-search"></label>
+                <input type="search" id="location-search" name="searchLocation" placeholder="Localité" />
+
+            </nav>
+
+            <nav id="Exp">
+                <label for="exp-search"></label>
+                <input type="search" id="exp-search" name="searchExp" placeholder="Expérience" />
+
+            </nav>
+        </section>
+        <button>Lancer la recherche</button>
+        <section id="profiles">
+            <h3> Meilleurs résultats </h3>
+            <article>
+                <h1>Profil 1</h1>
+            </article>
+            <article>
+                <h1>Profil 2</h1>
+            </article>
+            <article>
+                <h1>Profil 3</h1>
+            </article>
+            <article>
+                <h1>Profil 4</h1>
+            </article>
+            <article>
+                <h1>Profil 5</h1>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>2023 - Work.it</footer>
 </body>
 
 </html>
