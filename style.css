@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    @font-face {
+        font-family: "Lato";
+        src: url('698242188-Lato-Bla.eot');
+        src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+        url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+        url('698242188-Lato-Bla.woff') format('woff'),
+        url('698242188-Lato-Bla.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+}
+
+/* Logo */
+
+.work{
+    color:#3E97C9 ;
+    font-weight: bolder;
+    
+}
+.t{
+    color:#EA9009 ;
+    font-weight: bolder;
+}
+header{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Catchphrase */
+h2 {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main {
+    padding: 2rem 0 3rem 0;
+}
+
+main section {
+    max-width: 65ch;
+    margin: auto;
+}
+
+
+/* Recherche */
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/* Config input text */
+
+input#skills-search, input#location-search, input#exp-search {
+    border-radius: 25px;
+    border-width: 0;
+    background-color: rgb(232, 232, 232);
+    height: 2rem;
+    width: 300px;
+    text-align: center;
+}
+
+/* Bouton */
+
+
+button {
+    width: 150px;
+    margin: 2rem auto 2rem;
+    border-radius: ;
+}
+
+/* Profils 
+
+section article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 1px rgb(199, 199, 199);
+    width: 45%;
+    margin: 5px;
+    padding-bottom: 1rem;
+}
+*/
+/* Footer */
+footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* DESKTOP 
+
+@media screen and (min-width: 360px) {
+    .nav li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    
+}
+*/
