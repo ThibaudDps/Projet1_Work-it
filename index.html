@@ -21,26 +21,22 @@
         <section id="intro">
             <h2>Qui recherchez-vous aujourd'hui ?</h2>
         </section>
-
-        <section id="searchBar">
-
-            <nav id="Skills">
-                <label for="skills-search"></label>
-                <input type="search" id="skills-search" name="searchSkills" placeholder="Compétences, Métiers" />
-
-            </nav>
-
-            <nav id="Location">
-                <label for="location-search"></label>
-                <input type="search" id="location-search" name="searchLocation" placeholder="Localité" />
-
-            </nav>
-
-            <nav id="Exp">
-                <label for="exp-search"></label>
-                <input type="search" id="exp-search" name="searchExp" placeholder="Expérience" />
-
-            </nav>
+        <section div class="search">
+            <div class="input-container">
+                <input placeholder="De quel métier avez-vous besoin ?" class="input-field" type="text">
+                <label for="input-field" class="input-label">Compétences</label>
+                <span class="input-highlight"></span>
+            </div>
+            <div class="input-container">
+                <input placeholder="Où vous situez-vous ?" class="input-field" type="text">
+                <label for="input-field" class="input-label">Localité</label>
+                <span class="input-highlight"></span>
+            </div>
+            <div class="input-container">
+                <input placeholder="Quel profil demandez-vous ?" class="input-field" type="text">
+                <label for="input-field" class="input-label">Expérience</label>
+                <span class="input-highlight"></span>
+            </div>
         </section>
         <button>Lancer la recherche</button>
         <section div class="profiles">
@@ -60,7 +56,6 @@
             <article>
                 <h1>Profil 5</h1>
             </article>
-
         </section>
 
     </main>
