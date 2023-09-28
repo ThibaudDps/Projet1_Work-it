@@ -57,27 +57,88 @@ main section {
 
 
 /* Recherche */
-nav {
+
+.search {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    padding: 1rem;
+    margin: 0;
 }
 
-/* Config input text */
 
-input#skills-search,
-input#location-search,
-input#exp-search {
-    border-radius: 25px;
-    border-width: 0;
-    background-color: rgb(232, 232, 232);
-    height: 3rem;
-    width: 450px;
-    text-align: center;
+/* Animation Input */
+
+input-container, 
+input-field, 
+input-field:focus, 
+input-highlight, 
+input-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/* Input container */
+.input-container {
+    position: relative;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Input field */
+  .input-field {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  /* Input label */
+  .input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgba(204, 204, 204, 0);
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input highlight */
+  .input-highlight {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #EA9009;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input field:focus styles */
+  .input-field:focus + .input-label {
+    top: -20px;
+    font-size: 12px;
+    color: #3E97C9;
+  }
+
+  .input-field:focus::placeholder {
+    opacity: 25%;
+    transition: all 0.7s ease
+  }
+  
+  .input-field:focus + .input-label + .input-highlight {
+    width: 100%;
+  }
+
 
 /* Bouton */
-
 
 button {
     display: flex;
@@ -86,8 +147,11 @@ button {
     justify-content: center;
     margin: 2rem auto 2rem;
     border-radius: 25px;
-    border-width: 1px;
-    background-color: rgba(232, 232, 232, 0);
+    border-width: 0px;
+    background-color:#EA9009 ;
+    color: aliceblue;
+    font-weight: bolder;
+    box-shadow: 0px 10px 6px -3px rgba(0,0,0,0.1);
     height: 2rem;
     width: 250px;
 }
