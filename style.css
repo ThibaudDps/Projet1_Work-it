@@ -46,6 +46,13 @@ h2 {
 
 }
 
+/* Resultats */
+
+
+h3 {
+    text-align: center;
+}
+
 /* Main */
 
 main
@@ -186,16 +193,34 @@ footer {
 }
 
 
-/* DESKTOP 
+/* Tablette */
 
-@media screen and (min-width: 360px) {
-    .nav li {
+@media screen and (min-width: 900px) {
+    .profiles {
+        display: grid;
+        flex-wrap: wrap;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+    }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1200px) {
+    .profiles {
+        display: grid;
+        flex-wrap: wrap;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .5rem;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    .search {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        
     }
-    
 }
-*/
+
