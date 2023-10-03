@@ -155,6 +155,7 @@ input-label {
 .button{
   display: flex;
   justify-content: center;
+
 }
 button {
   display: inline-block;
@@ -289,6 +290,7 @@ footer {
 
 
 
+
 /* Tablette */
 
 
@@ -349,5 +351,3 @@ width: 350px;
   }
   
 }
-
-
