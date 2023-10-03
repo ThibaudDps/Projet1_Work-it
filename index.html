@@ -6,64 +6,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>work.it</title>
     <link rel="stylesheet" href="style.css">
+    <script src="profils.js"></script>
     <script src="index.js"></script>
 </head>
+
+<body>
+
 <header>
 
-    <h1 id="logo">
-        <span class="work">work</span><span class="t">.it</span>
+    <h1 logo>
+        <span class="work">work</span><span class="it">.it</span>
     </h1>
 </header>
 
-<body>
     <main>
-        <section id="intro">
+        <section intro>
             <h2>Qui recherchez-vous aujourd'hui ?</h2>
         </section>
 
-        <section id="searchBar">
+        <section class="search">
 
-            <nav id="Skills">
-                <label for="skills-search"></label>
-                <input type="search" id="skills-search" name="searchSkills" placeholder="Compétences, Métiers" />
+            <div class="input-container">
+                <input placeholder="De quel métier avez-vous besoin ?" class="input-field" type="text">
+                <label for="input-field" class="input-label">Compétences</label>
+                <span class="input-highlight"></span>
+            </div>
 
-            </nav>
 
-            <nav id="Location">
-                <label for="location-search"></label>
-                <input type="search" id="location-search" name="searchLocation" placeholder="Localité" />
+            <div class="input-container">
+                <input placeholder="Où vous situez-vous ?" class="input-field" type="text">
+                <label for="input-field" class="input-label">Localité</label>
+                <span class="input-highlight"></span>
+            </div>
 
-            </nav>
 
-            <nav id="Exp">
-                <label for="exp-search"></label>
-                <input type="search" id="exp-search" name="searchExp" placeholder="Expérience" />
+            <div class="input-container">
+                <input placeholder="Quel profil demandez-vous ?" class="input-field" type="text">
+                <label for="input-field" class="input-label">Expérience</label>
+                <span class="input-highlight"></span>
+            </div>
 
-            </nav>
         </section>
-        <button>Lancer la recherche</button>
-        <section div class="profiles">
-            <h3> Meilleurs résultats </h3>
-            <article>
-                <h1>Profil 1</h1>
-            </article>
-            <article>
-                <h1>Profil 2</h1>
-            </article>
-            <article>
-                <h1>Profil 3</h1>
-            </article>
-            <article>
-                <h1>Profil 4</h1>
-            </article>
-            <article>
-                <h1>Profil 5</h1>
-            </article>
 
+        <div class="button">       
+             <button><span> LANCER LA RECHERCHE</span></button>
+</div>
+
+        <h3> Meilleurs résultats </h3>
+
+        <section div class="profiles">
+            <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+                <div class="card-details">
+                    <img src="card1.jpg" alt="homme">
+                  <p class="text-title">Maxime.D</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+
+              <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+
+                <div class="card-details">
+                    <img src="card2.jpg" alt="femme">
+                  <p class="text-title">Charlotte.M</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+              <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+
+                <div class="card-details">
+                  <p class="text-title">Farid.B</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+              <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+
+                <div class="card-details">
+                  <p class="text-title">Emilie.D</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+              <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+
+                <div class="card-details">
+                  <p class="text-title">Julien.L</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+              <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+
+                <div class="card-details">
+                  <p class="text-title">Mamadou.S</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+              <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+
+                <div class="card-details">
+                  <p class="text-title">Saber.S</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+              <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+
+                <div class="card-details">
+                  <p class="text-title">Manon.R</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+              <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+
+                <div class="card-details">
+                  <p class="text-title">Lucas.G</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+              <div class="card">
+                <div class="favorite-star">&#9733;</div> 
+
+                <div class="card-details">
+                  <p class="text-title">Camille.P</p>
+                  <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+              </div>
+            </div>
+            <button class="card-button">More info</button>
+          </div>
+          <div class="card">
+            <div class="favorite-star">&#9733;</div> 
+
+            <div class="card-details">
+              <p class="text-title">Aicha.M</p>
+              <p class="text-body">Here are the details of the card</p>
+            </div>
+            <button class="card-button">More info</button>
+          </div>
+        </div>
+        <button class="card-button">More info</button>
+      </div>
+      <div class="card">
+        <div class="favorite-star">&#9733;</div> 
+
+        <div class="card-details">
+          <p class="text-title">Sarah.A</p>
+          <p class="text-body">Here are the details of the card</p>
+        </div>
+        <button class="card-button">More info</button>
+      </div>
         </section>
 
     </main>
-    <footer>2023 - Work.it</footer>
+
+    <footer>2023 - Work.it </footer>
 </body>
 
 </html>
