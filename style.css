@@ -36,7 +36,7 @@ margin: 0;}
 header {
   display: flex;
   justify-content: center;
-  padding-bottom: 5rem;
+  padding: 5rem 0 5rem 0;
 
 }
 
@@ -49,13 +49,7 @@ h2 {
 
 }
 
-/* Resultats */
 
-
-.resultats {
-  padding-top: 5rem;
-  text-align: center;
-}
 
 /* Main */
 
@@ -150,7 +144,7 @@ input-label {
 }
 
 
-/* Bouton */
+/* Bouton 
 .button{
   display: flex;
   justify-content: center;
@@ -197,20 +191,22 @@ button {
     opacity: 1;
     right: 0;
    }
+*/
+
+/* Resultats */
 
 
-
-/* Profils */
-
-.profiles {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 1rem;
+.resultats {
+  display: grid;
+  flex-wrap: wrap;
+  justify-items: center;
+  grid-template-columns: 1fr;
   gap: 1rem;
+  padding-top: 5rem;
 }
 
+.card p {
+}
 
 .card {
   width: 75%;
@@ -224,50 +220,6 @@ button {
   overflow: visible;
  }
 
-/* Star Favourite */
-
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.container {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  cursor: pointer;
-  user-select: none;
-}
-
-.container svg {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 40px;
-  width: 40px;
-  transition: all 0.3s;
-  fill: #666;
-}
-
-.container svg:hover {
-  transform: scale(1.1);
-}
-
-.container input:checked ~ svg {
-  fill: #EA9009;
-}
-
- 
- .card-details {
-  color: black;
-  height: 100%;
-  gap: .5em;
-  display: grid;
- }
- 
 
  .card-details img {
   height: 160px;
@@ -313,7 +265,7 @@ footer {
   text-align: center;
   bottom: 0;
   width: 100%;
-  padding: 1rem 0 1rem 0
+  padding: 1rem 0 1rem 0;
 }
 
 
@@ -321,7 +273,7 @@ footer {
 /* Tablette */
 
 @media screen and (min-width: 650px) {
-  .profiles {
+  .resultats {
 
     display: grid;
       flex-wrap: wrap;
@@ -332,7 +284,7 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
-  .profiles {
+  .resultats {
 
     display: grid;
       flex-wrap: wrap;
@@ -340,15 +292,13 @@ footer {
       grid-template-columns: 1fr 1fr 1fr;
       gap: .5rem;
   }
-  .card-details img{
-  }
-}
+
 
 /* DESKTOP */
 
 
 @media screen and (min-width: 1200px) {
-  .profiles {
+  .resultats {
       display: grid;
       flex-wrap: wrap;
       justify-items: center;
@@ -363,7 +313,6 @@ width: 350px;
   }
     .resultats {
       padding-top: 4rem;
-      text-align: center;
     }
   }
   
@@ -387,7 +336,7 @@ width: 350px;
   h1 {
     font-size: 8rem;
   }
-  .profiles{
+  .resultats{
       display: grid;
       flex-wrap: wrap;
       justify-items: center;
