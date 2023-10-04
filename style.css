@@ -1,7 +1,3 @@
-header{
-  background-image:url("picture1.svg");
-  background-repeat: no-repeat;
-  }
 
 body {
   margin: 0 100px;
@@ -40,6 +36,7 @@ margin: 0;}
 header {
   display: flex;
   justify-content: center;
+  padding-bottom: 5rem;
 
 }
 
@@ -55,7 +52,8 @@ h2 {
 /* Resultats */
 
 
-h3 {
+.resultats {
+  padding-top: 5rem;
   text-align: center;
 }
 
@@ -77,6 +75,7 @@ main section {
   align-items: center;
   justify-content: center;
   margin: 0;
+  padding-bottom: 3rem;
 }
 
 
@@ -165,7 +164,7 @@ button {
     color: #FFFFFF;
     text-align: center;
     font-size: 17px;
-font-weight: bolder;
+    font-weight: bolder;
     padding: 20px;
     width: 400px;
     transition: all 0.5s;
@@ -200,6 +199,7 @@ font-weight: bolder;
    }
 
 
+
 /* Profils */
 
 .profiles {
@@ -207,8 +207,7 @@ font-weight: bolder;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
-
+  padding-top: 1rem;
   gap: 1rem;
 }
 
@@ -224,14 +223,43 @@ font-weight: bolder;
   transition: 0.5s ease-out;
   overflow: visible;
  }
- .favorite-star {
-  position: absolute; /* Position absolue par rapport à la carte parente */
-  top: 5px; /* Ajustez la position verticale selon vos besoins */
-  right: 10px; /* Ajustez la position horizontale selon vos besoins */
-  color: gold; /* Couleur de l'étoile de favoris */
-  font-size: 40px; /* Taille de police de l'étoile */
-  cursor: pointer; /* Curseur de souris indiquant que l'étoile est cliquable */
+
+/* Star Favourite */
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
+
+.container {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.container svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  transition: all 0.3s;
+  fill: #666;
+}
+
+.container svg:hover {
+  transform: scale(1.1);
+}
+
+.container input:checked ~ svg {
+  fill: #EA9009;
+}
+
  
  .card-details {
   color: black;
@@ -290,9 +318,18 @@ footer {
 
 
 
-
 /* Tablette */
 
+@media screen and (min-width: 650px) {
+  .profiles {
+
+    display: grid;
+      flex-wrap: wrap;
+      justify-items: center;
+      grid-template-columns: 1fr 1fr;
+      gap: .5rem;
+  }
+}
 
 @media screen and (min-width: 900px) {
   .profiles {
@@ -324,6 +361,11 @@ width: 350px;
   .search{
     margin: 20px;
   }
+    .resultats {
+      padding-top: 4rem;
+      text-align: center;
+    }
+  }
   
   /*Hover*/
  .card:hover {
@@ -335,9 +377,9 @@ width: 350px;
   transform: translate(-50%, 50%);
   opacity: 1;
  }
-}
 
-@media screen and (min-width: 1450px) {
+
+@media screen and (min-width: 1500px) {
   .search {
       display: flex;
       flex-direction: row;
@@ -346,8 +388,11 @@ width: 350px;
     font-size: 8rem;
   }
   .profiles{
-
-    margin: 0 100px;
+      display: grid;
+      flex-wrap: wrap;
+      justify-items: center;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      gap: 1rem;
+      margin: 0 100px;
   }
-  
 }
