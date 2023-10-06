@@ -1,5 +1,3 @@
-
--= Projet 1 =-
 ![https://i.ibb.co/HFPR0yS/work-it.png](https://i.goopics.net/5c5hhi.png)
 
 
