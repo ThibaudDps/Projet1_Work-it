@@ -200,6 +200,14 @@ footer {
   width: 100%;
   padding: 1rem 0 1rem 0;
 }
+
+footer a {
+  color: #008bf8;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* Tablette */
 @media screen and (max-width: 1200px) {
   .card-button {
