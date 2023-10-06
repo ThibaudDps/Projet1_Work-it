@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
       nom: "Ipticem D.",
-      metier: "Développeur Web",
+      metier: "Developpeur Web",
       localisation: "Lyon",
       experience: 1,
     },
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://images.unsplash.com/photo-1546961342-ea5f71b193f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
       nom: "Farida B.",
       metier: "Data Analyst",
-      localisation: "Bordeaux",
+      localisation: "Lille",
       experience: 2,
     },
     {
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.unsplash.com/photo-1507152927179-bc4ebfef7103?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
       nom: "Adel K.",
-      metier: "Développeur Web",
+      metier: "Developpeur Web",
       localisation: "Strasbourg",
       experience: 4,
     },
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       nom: "Thib D.",
-      metier: "Développeur Web",
+      metier: "Developpeur Web",
       localisation: "Paris",
       experience: 3,
     },
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.unsplash.com/photo-1560365163-3e8d64e762ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
       nom: "Marie H.",
-      metier: "Développeur Web",
+      metier: "Developpeur Web",
       localisation: "Lille",
       experience: 2,
     },
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
       nom: "Yavuz R.",
-      metier: "Ingénieur système",
+      metier: "Ingénieur Système",
       localisation: "Marseille",
       experience: 5,
     },
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://www.schmidtspiele.de/files/Autoren/schmidtspiele_autor_bob_ross.jpg",
       nom: "Bob R.",
-      metier: "Développeur Web",
+      metier: "Developpeur Web",
       localisation: "Nantes",
       experience: 1,
     },
@@ -103,15 +103,15 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2048&q=80",
       nom: "Theo P.",
-      metier: "Développeur Web",
-      localisation: "Roanne",
+      metier: "Developpeur Web",
+      localisation: "Bordeaux",
       experience: 2,
     },
     {
       photoUrl:
         "https://images.unsplash.com/photo-1450297350677-623de575f31c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
       nom: "Christelle E.",
-      metier: "Développeur Web",
+      metier: "Developpeur Web",
       localisation: "Brest",
       experience: 3,
     },
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80",
       nom: "Samir F.",
-      metier: "Développeur Web",
+      metier: "Developpeur Web",
       localisation: "Cannes",
       experience: 1,
     },
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.unsplash.com/photo-1499651681375-8afc5a4db253?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1997&q=80",
       nom: "Aline S.",
-      metier: "Data Analist",
+      metier: "Data Analyst",
       localisation: "Rennes",
       experience: 1,
     },
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.mubicdn.net/images/cast_member/762616/cache-855228-1676220742/image-w856.jpg?size=240x",
       nom: "Boubaker G.",
-      metier: "Développeur Web",
+      metier: "Developpeur Web",
       localisation: "Nantes",
       experience: 1,
     },
@@ -151,8 +151,8 @@ document.addEventListener("DOMContentLoaded", function () {
       photoUrl:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       nom: "Sarah A.",
-      metier: "Développeur Web",
-      localisation: "Can",
+      metier: "Developpeur PHP",
+      localisation: "Caen",
       experience: 5,
     },
     {
