@@ -1,6 +1,6 @@
 
 -= Projet 1 =-
-![Logo]([https://example.com/logo.png](https://ibb.co/VjCbdG1))
+![Logo](https://ibb.co/VjCbdG1)
 
 
 Work.it réalisé durant les 3ème et 4ème semaines de formation à la Wild Code School par Thibaud, Adel et Greg.
