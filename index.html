@@ -1,57 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>work.it</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6aa84c9465.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>work.it</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="index.js"></script>
-</head>
+  <body>
+    <header>
+      <h1 logo><span class="work">work</span><span class="it">.it</span></h1>
+    </header>
 
-<body>
+    <main>
+      <section intro>
+        <h2>Qui recherchez-vous aujourd'hui ?</h2>
+      </section>
+      <section class="search">
+        <div class="input-container">
+          <input
+            placeholder="De quel métier avez-vous besoin ?"
+            class="input-field"
+            type="text"
+            id="metiers-input"
+          />
+          <label for="input-field" class="input-label">Métiers</label>
+          <span class="input-highlight"></span>
+        </div>
 
-  <header>
+        <div class="input-container">
+          <input
+            placeholder="Où vous situez-vous ?"
+            class="input-field"
+            type="text"
+            id="localite-input"
+          />
+          <label for="input-field" class="input-label">Localité</label>
+          <span class="input-highlight"></span>
+        </div>
 
-    <h1 logo>
-      <span class="work">work</span><span class="it">.it</span>
-    </h1>
-  </header>
+        <div class="input-container">
+          <input
+            placeholder="Quel profil demandez-vous ?"
+            class="input-field"
+            type="text"
+            id="experience-input"
+          />
+          <label for="input-field" class="input-label">Expérience</label>
+          <span class="input-highlight"></span>
+        </div>
+      </section>
 
-  <main>
-    <section intro>
-      <h2>Qui recherchez-vous aujourd'hui ?</h2>
-    </section>
-    <section class="search">
-
-      <div class="input-container">
-        <input type="text" class="input-field" id="metiers-input" placeholder="De quel métier avez-vous besoin ?">
-        <label for="input-field" class="input-label">Métiers</label>
-        <span class="input-highlight"></span>
+      <section class="resultats"></section>
+      <div class="profils">
+        <div class="cards">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-img" data-photo-url="URL_DE_L_IMAGE"></div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-name">Adel K</h4>
+              <p class="card-metiers">Développeur web</p>
+              <p class="card-localité">Lyon</p>
+              <p class="card-expérience">1</p>
+              <button class="card-button">More info</button>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="input-container">
-        <input type="text" class="input-field" id="localite-input" placeholder="Où vous situez-vous ?">
-        <label for="input-field" class="input-label">Localité</label>
-        <span class="input-highlight"></span>
-      </div>
-
-      <div class="input-container">
-        <input type="text" class="input-field" id="experience-input" placeholder="Combien d'années d'expérience ?">
-        <label for="input-field" class="input-label">Expérience</label>
-        <span class="input-highlight"></span>
-      </div>
-
-
-    </section>
-
-    <!----<div class="button">
-      <button type="button" onclick="getInputValue();"><span>LANCER LA RECHERCHE</span></button>
-    </div>-->
-    <section class="resultats"></section>
-    </section>
-  </main>
-  <footer>2023 - Work.it </footer>
-</body>
-
+    </main>
+    <footer>
+      <p>2023 - Work.it</p>
+      <p>Made with ❤️ by Greg, Thibaud & Adel</p>
+    </footer>
+  </body>
 </html>
