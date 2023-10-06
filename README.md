@@ -1,7 +1,7 @@
 ![https://i.ibb.co/HFPR0yS/work-it.png](https://i.goopics.net/5c5hhi.png)
 
 
-[SITE](https://thibauddps.github.io/work-it/)  
+[VISITEZ WORK-IT](https://thibauddps.github.io/work-it/)  
 
 
 ## Cadre du projet
