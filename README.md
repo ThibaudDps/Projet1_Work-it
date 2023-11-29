@@ -40,8 +40,9 @@ Création de cartes pour stocker les profils des professionnels, y compris leurs
 Développement des fonctionnalités clés, notamment la soumission de critères de recherche et la présentation des résultats de manière pertinente.
 Optimisation pour une utilisation mobile, car de nombreux utilisateurs accèdent aux plateformes en ligne depuis des appareils mobiles.
 
-## Test et optimisation :
+## Réalisation personnelle :
 
+Concept / Branding / Maquette / CSS
 Test du site pour s'assurer qu'il fonctionne correctement sur différents navigateurs et appareils.
 Optimisation du développement du site pour garantir une réponse rapide lors de la recherche de profils.
 
