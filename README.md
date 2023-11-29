@@ -46,6 +46,3 @@ Concept / Branding / Maquette / CSS
 Test du site pour s'assurer qu'il fonctionne correctement sur différents navigateurs et appareils.
 Optimisation du développement du site pour garantir une réponse rapide lors de la recherche de profils.
 
-## Lancement :
-
-Une fois que le site est prêt, il est déployé via GitHub.
